@@ -183,12 +183,12 @@ export default function ArumaHospital() {
         <div className="container mx-auto px-4 z-10 relative">
           <div className="max-w-2xl text-white">
             <div className="inline-flex items-center bg-red-600 px-4 py-2 rounded-full mb-4">
-              <Clock className="w-5 h-5 mr-2" />
-              <span className="font-semibold">
+              <Clock className="w-3 h-3 md:w-5 md:h-5 mr-2" />
+              <span className="font-semibold text-xs md:text-sm">
                 OPEN 24 HOURS – EMERGENCY CARE AVAILABLE
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-4">
+            <h1 className="text-[2rem] md:text-6xl font-bold mb-4">
               Compassionate Care for Your Beloved Pets
             </h1>
             <p className="text-xl mb-6">
