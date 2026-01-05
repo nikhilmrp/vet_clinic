@@ -42,7 +42,7 @@ const Header = () => {
           <div className="flex items-center space-x-2">
             <Heart className="w-8 h-8 text-teal-600" />
             <div>
-              <h1 className="text-2xl font-bold text-teal-800">ARUMA</h1>
+              <h1 className="text-2xl font-bold text-teal-800">CL-name</h1>
               <p className="text-xs text-gray-600">
                 Multi-Speciality Pet Hospital
               </p>

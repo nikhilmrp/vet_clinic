@@ -43,7 +43,7 @@ interface Review {
   text: string;
 }
 
-export default function ArumaHospital() {
+export default function LandingPage() {
   const [formData, setFormData] = useState<ContactFormData>({
     name: "",
     phone: "",
@@ -130,17 +130,17 @@ export default function ArumaHospital() {
     {
       name: "Priya Menon",
       rating: 5,
-      text: "Best pet hospital in Kozhikode! The doctors are experienced and the facilities are top-notch. Happy with the grooming services too.",
+      text: "Best pet hospital in dt-name! The doctors are experienced and the facilities are top-notch. Happy with the grooming services too.",
     },
     {
       name: "Arun Nair",
       rating: 4,
-      text: "Very good hospital with 24/7 availability. The emergency care team saved my cat's life. Forever grateful to ARUMA team.",
+      text: "Very good hospital with 24/7 availability. The emergency care team saved my cat's life. Forever grateful to CL-name team.",
     },
     {
       name: "Sreelakshmi S",
       rating: 5,
-      text: "As a woman pet owner, I appreciate this women-owned hospital. The care and compassion shown towards pets is exceptional.",
+      text: "As a woman pet owner, I appreciate this  hospital. The care and compassion shown towards pets is exceptional.",
     },
     {
       name: "Mohammed Ashraf",
@@ -174,7 +174,7 @@ export default function ArumaHospital() {
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1688092807693-fd1c1a30c6c1"
-            alt="ARUMA Pet Hospital"
+            alt="CL-name Pet Hospital"
             fill
             className="object-cover brightness-50"
             priority
@@ -192,7 +192,7 @@ export default function ArumaHospital() {
               Compassionate Care for Your Beloved Pets
             </h1>
             <p className="text-xl mb-6">
-              Kerala's Trusted Women-Owned Multi-Speciality Pet Hospital
+              Kerala's Trusted Multi-Speciality Pet Hospital
             </p>
             <div className="flex items-center space-x-2 mb-6">
               <div className="flex">
@@ -271,20 +271,20 @@ export default function ArumaHospital() {
             </div>
             <div>
               <h2 className="text-4xl font-bold text-teal-800 mb-6">
-                About ARUMA Multi-Speciality Pet Hospital
+                About CL-name Multi-Speciality Pet Hospital
               </h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
                   <strong className="text-teal-600">
-                    ARUMA Multi-Speciality Pet Hospital
+                    CL-name Multi-Speciality Pet Hospital
                   </strong>{" "}
-                  is a proudly women-owned veterinary care center located in the
-                  heart of Kozhikode, Kerala. We are dedicated to providing
-                  compassionate, high-quality medical care for your beloved pets
-                  around the clock.
+                  is a proudly veterinary care center located in the heart of
+                  dt-name, Kerala. We are dedicated to providing compassionate,
+                  high-quality medical care for your beloved pets around the
+                  clock.
                 </p>
                 <p>
-                  Our state-of-the-art facility near Malikkadav Bridge offers
+                  Our state-of-the-art facility near twn-name Bridge offers
                   comprehensive veterinary services ranging from routine
                   checkups to advanced surgical procedures. With a team of
                   experienced veterinarians and trained support staff, we ensure
@@ -469,11 +469,11 @@ export default function ArumaHospital() {
                     <div>
                       <h3 className="font-semibold text-lg mb-2">Address</h3>
                       <p className="text-gray-600">
-                        Near Malikkadav Bridge
+                        Near twn-name Bridge
                         <br />
-                        Moorikkara Road
+                        pl-name Road
                         <br />
-                        Kozhikode, Kerala 673010
+                        dt-name, Kerala 673010
                       </p>
                     </div>
                   </div>
@@ -490,7 +490,7 @@ export default function ArumaHospital() {
                         href="tel:+916282693066"
                         className="text-teal-600 hover:text-teal-700 text-xl font-semibold"
                       >
-                        062826 93066
+                        000000000
                       </a>
                     </div>
                   </div>
@@ -636,15 +636,15 @@ export default function ArumaHospital() {
               <div className="flex items-center space-x-2 mb-4">
                 <Heart className="w-8 h-8" />
                 <div>
-                  <h3 className="text-2xl font-bold">ARUMA</h3>
+                  <h3 className="text-2xl font-bold">CL-name</h3>
                   <p className="text-sm text-teal-200">
                     Multi-Speciality Pet Hospital
                   </p>
                 </div>
               </div>
               <p className="text-teal-200">
-                Kerala's trusted women-owned pet healthcare provider, serving
-                the community with compassion and excellence since 2014.
+                Kerala's trusted pet healthcare provider, serving the community
+                with compassion and excellence since 2014.
               </p>
             </div>
             <div>
@@ -684,7 +684,7 @@ export default function ArumaHospital() {
                 </li>
                 {/* <li>
                   <a
-                    // href="https://arumapethospital.in"
+                    // href="https://CL-namepethospital.in"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-white transition"
@@ -698,11 +698,10 @@ export default function ArumaHospital() {
               <h4 className="text-xl font-semibold mb-4">Contact Info</h4>
               <div className="space-y-3 text-teal-200">
                 <p className="flex items-center">
-                  <Phone className="w-5 h-5 mr-2" /> 062826 93066
+                  <Phone className="w-5 h-5 mr-2" /> 000000000
                 </p>
                 <p className="flex items-center">
-                  <MapPin className="w-5 h-5 mr-2" /> Malikkadav Bridge,
-                  Kozhikode
+                  <MapPin className="w-5 h-5 mr-2" /> twn-name Bridge, dt-name
                 </p>
                 <p className="flex items-center">
                   <Clock className="w-5 h-5 mr-2" /> Open 24 Hours
@@ -712,11 +711,11 @@ export default function ArumaHospital() {
           </div>
           <div className="border-t border-teal-800 mt-8 pt-8 text-center text-teal-200">
             <p>
-              &copy; 2025 ARUMA Multi-Speciality Pet Hospital. All rights
+              &copy; 2025 CL-name Multi-Speciality Pet Hospital. All rights
               reserved.
             </p>
             <p className="mt-2">
-              Proudly serving pet families in Kozhikode, Kerala
+              Proudly serving pet families in dt-name, Kerala
             </p>
           </div>
         </div>
